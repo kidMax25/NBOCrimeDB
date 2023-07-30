@@ -356,5 +356,5 @@ ui <- shinyUI(
   )
 )
 
-# Run the application
+# application
 shinyApp(ui, server)
