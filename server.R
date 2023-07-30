@@ -16,7 +16,7 @@ library(rgdal)
   con <- dbConnect(
     MySQL(),
     user = "root",
-    password = "Maxy2001",
+    password = "*******",
     host = "localhost",
     port = 3306,
     dbname = "crimedb"
