@@ -1,0 +1,111 @@
+/* Styling the custom icon */
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body {
+  font-family: "Georgia", Times, "Times New Roman", Sans-Serif;
+  font-weight: 12px;
+}
+
+.h2 {
+  font-family: inherit;
+  font-size: 12px;
+}
+
+/*.nav-tabs{
+  opacity: 0.9;
+}*/
+
+#abs1 {
+    position: relative;
+    background-color: #fff;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity: 0.7;
+}
+
+.obs {
+  border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: whitesmoke;
+    border-color: #367fa9;
+}
+
+.small-box {
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.info-box {
+    display: block;
+    min-height: 9px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 16px -8px 9px 4px rgba(0,0,0,.1);
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+
+
+.info-box-icon {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    display: block;
+    float: left;
+    height: inherit;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 99px;
+    background: rgba(0,0,0,.2);
+}
+
+.myabs1:not(:empty) {
+  all: unset;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    font-weight:bold;
+    opacity:1;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.info-box-text {
+    text-transform: none;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.mypanels{
+  display: grid;
+}
+.mybuttons:not(:empty) {
+  all: unset;
+  padding-left: 100px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn {
+    border-radius: 41px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px transparent;
+}
+
